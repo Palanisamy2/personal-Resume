@@ -1008,7 +1008,7 @@ width: 10px;
   font-weight: 500;
 }
 .tab-contents{
-  display: none;
+ font-size: 4px;
   
 }
 .tab-contents.active-tab{
