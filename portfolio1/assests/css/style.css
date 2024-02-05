@@ -827,6 +827,17 @@ width: 10px;
     padding-left: 400px;
     padding-top: 5px;
   }
+
+    .services-list{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  flex-direction: row;
+ /* height: 950px; */ 
+  width: 100%;
+  height: auto;
+  flex-flow: nowrap;
+}
 }
 @media (min-width:500px) and (max-width:989px){
   .about-col-1{
