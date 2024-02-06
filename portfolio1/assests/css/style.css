@@ -835,7 +835,7 @@ width: 10px;
   flex-direction: row;
  /* height: 950px; */ 
   width: 100%;
-  height: auto;
+  height: 100%;
   flex-flow: nowrap;
 }
 }
