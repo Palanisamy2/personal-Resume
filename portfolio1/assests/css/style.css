@@ -795,7 +795,7 @@ width: 10px;
 }
 
 @media (min-width:990px) and (max-width:1700px){
-  .about-col-1{
+   .about-col-1{
     background-image: url(../images/erd.png);
     background-repeat: no-repeat;
     height: 50vh;
@@ -835,9 +835,53 @@ width: 10px;
   flex-direction: row;
  /* height: 950px; */ 
   width: 100%;
-  height: auto;
+  height: 1250px;
   flex-flow: nowrap;
 }
+#about{
+  padding: 80px 0;
+  color: #ababab;
+  height: 900px;
+  width: 100%;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+ 
+}
+.glow{
+  background-color: rgb(90, 161, 131,0.5);
+  height: 380px;
+  width: 35%;
+  filter: blur(120px);
+  position: absolute;
+  top: 1000px;
+  left: 900px; 
+  z-index: -10;
+}
+
+.services-lis div{
+  display:flex;
+  
+  justify-content:space-between;
+  flex-wrap: wrap;
+  
+  width: 500px;
+ 
+
+  height: 200px;
+  background: #262626;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: 0.5s,transform 0.5s;
+
+}
+
+
+
 }
 @media (min-width:500px) and (max-width:989px){
   .about-col-1{
